@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    height: 50px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#logo {
+    background-image: url("img/StarLabsWhite.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+nav div a {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px 30px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbarra{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 450px;
+}
+section .sbarra
+{
+    margin:0px;
+    opacity: 1.0;
+
+}
+.sbarra h1
+ {
+     font-family: 'Julius Sans One', sans-serif;
+     text-transform: capitalize;
+     color:white;
+     font-size: 40px;
+     font-style: normal;
+     border-bottom: none;
+     margin: 0px;
+ }
+.sbarra img
+{
+    height: 48px;
+    width: 48px;
+}
+
+header a:hover {
+    background-color: rgb(109, 108, 108);
+    border-radius: 10px;
+}
+
+.button {
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header {
+    height: 500px;
+    background-image: url("img/pexels-chokniti-khongchum-2280547.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottoni{
+
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 15px;
+    border: 2px solid rgba(0, 0, 0, 0.329);
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 30px 0px 30px;
+}
+
+section {
+    font-family: 'Comfortaa', 'Times New Roman', cursive;
+
+}
+
+.main div {
+    color:white;
+    text-transform: uppercase;
+    display: flex;
+    background: black;
+    position: relative;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    margin: 30px 10px;
+}
+#articoli a {
+
+    text-transform: uppercase;
+    color:black;
+    text-decoration:none;
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+    padding:10px;
+    width: 20%;
+    height: 30%;
+    transition: ease-out 500ms;
+    position: relative;
+
+}
+#articoli a:hover{
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    opacity: 0.8;
+}
+h4
+{
+    background-color: rgba(0, 139, 139, 0.94);
+    margin:0px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    border-radius:5px;
+    left: 0;
+    top: 10px;
+}
+em{
+    font-size:10px;
+    color: rgba(0, 139, 139, 0.93);
+    font-family: cursive;
+}
+section h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.immagini_principali {
+    width: 300px;
+    height:200px;
+    margin-top: 20px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    height: 70px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 14, 0.918);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer>img {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#menutendina div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+#menutendina {
+    display: none;
+}
